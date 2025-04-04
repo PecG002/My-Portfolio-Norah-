@@ -3,77 +3,257 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio | Norah Akinyi Otieno</title>
+    <title>Norah Otieno | Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <!-- Header -->
     <header>
-        <nav>
-            <div class="logo">
-                <img src="Norah.JPEG" alt="Norah's Logo">
-            </div>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">Meet Norah</a></li>
-                <li><a href="#skills">Tech Arsenal</a></li>
-                <li><a href="#projects">Creations</a></li>
-                <li><a href="#contact">Get in Touch</a></li>
-            </ul>
-        </nav>
+        <div class="container">
+            <nav class="navbar">
+                <a href="#" class="logo">Norah<span>.</span></a>
+                <ul class="nav-links">
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#interests">Interests</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
     </header>
-    <section id="home" class="hero">
-        <h1>Welcome to My Digital Playground</h1>
-        <p>Crafting seamless web experiences with HTML, CSS & Python</p>
-    </section>
-    <section id="about">
-        <h2>Meet Norah</h2>
-        <p>Hey there! I'm Norah, a tech enthusiast driven by the art of coding. I thrive on turning ideas into functional, elegant digital solutions. Every line of code I write is a step toward innovation and transformation.</p>
-        <h3>Educational Background</h3>
-        <p>Proudly trained at <strong>Scrimba</strong> & <strong>PLP</strong>, honing my skills in modern web development and problem-solving.</p>
-        <h3>What Fuels My Passion?</h3>
-        <p>Technology isn't just a career; it's my playground. I love solving complex challenges, creating intuitive user experiences, and constantly learning new things to push the boundaries of innovation.</p>
-    </section>
-    <section id="skills">
-      <h2>Tech Arsenal</h2>
-      <ul class="tech-list">
-          <li class="tech-item">
-              <img src="https://img.icons8.com/ios/50/000000/html-5.png" alt="HTML icon">
-              <h3>HTML</h3>
-              <p>Building the structure of the web with clean, semantic markup.</p>
-          </li>
-          <li class="tech-item">
-              <img src="https://img.icons8.com/ios/50/000000/css3.png" alt="CSS icon">
-              <h3>CSS</h3>
-              <p>Styling beautiful and responsive designs that fit all screen sizes.</p>
-          </li>
-          <li class="tech-item">
-              <img src="https://img.icons8.com/ios/50/000000/python.png" alt="Python icon">
-              <h3>Python</h3>
-              <p>Automating tasks, solving problems, and creating useful applications.</p>
-          </li>
-      </ul>
-  </section>
-  <section id="projects">
-        <h2>Creations</h2>
-        <div class="project-card">
-            <h3>⚡ Responsive Web Design</h3>
-            <p>A fully responsive website built with HTML & CSS.</p>
-            <a href="#">View Project</a>
-        </div>
-        <div class="project-card">
-            <h3>🛠 Python Automation</h3>
-            <p>A Python script that automates daily tasks efficiently.</p>
-            <a href="#">View Project</a>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Hi, I'm <span>Norah Otieno</span></h1>
+                    <p>A passionate front-end developer creating beautiful, responsive websites with clean code and modern design principles.</p>
+                    <a href="#projects" class="btn">View My Work</a>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/norah-otieno-0442542a2/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="mailto:onorah09@gmail.com"><i class="fas fa-envelope"></i></a>
+                        <a href="https://wa.me/254796367532" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=688&q=80" alt="Norah Otieno">
+                </div>
+            </div>
         </div>
     </section>
-    <section id="contact">
-        <h2>Get in Touch</h2>
-        <p><strong>Email:</strong> <a href="mailto:onorah09@gmail.com">onorah09@gmail.com</a></p>
-        <p><strong>WhatsApp:</strong> <a href="https://wa.me/254796367532">+254 796 367 532</a></p>
-        <p><strong>Call:</strong> <a href="tel:+254796367532">+254 796 367 532</a></p>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1544717305-2782549b5136?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80" alt="About Norah">
+                </div>
+                <div class="about-text">
+                    <h3>Front-End Developer & Tech Enthusiast</h3>
+                    <p>I'm a dedicated web developer with a strong passion for creating intuitive and visually appealing digital experiences. My journey in tech began with a curiosity about how websites work, and it has grown into a full-fledged career path.</p>
+                    <p>I specialize in crafting responsive websites using modern HTML and CSS techniques. I believe in writing clean, maintainable code that not only looks good but also performs exceptionally across all devices.</p>
+                    <p>When I'm not coding, you can find me exploring the latest web design trends, contributing to open-source projects, or mentoring aspiring developers in my community.</p>
+                    <a href="#contact" class="btn">Get In Touch</a>
+                </div>
+            </div>
+        </div>
     </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <div class="container">
+            <h2 class="section-title">My Skills</h2>
+            <div class="skills-container">
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-html5"></i>
+                    </div>
+                    <h3>HTML5</h3>
+                    <p>Semantic markup, accessibility, and modern structure</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-css3-alt"></i>
+                    </div>
+                    <h3>CSS3</h3>
+                    <p>Flexbox, Grid, animations, and responsive design</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-python"></i>
+                    </div>
+                    <h3>Python</h3>
+                    <p>Scripting, automation, and backend development</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interests Section -->
+    <section id="interests" class="section">
+        <div class="container">
+            <h2 class="section-title">My Interests</h2>
+            <div class="interests-container">
+                <div class="interest-card">
+                    <div class="interest-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Web Development</h3>
+                    <p>Building modern, responsive websites with clean code</p>
+                </div>
+                <div class="interest-card">
+                    <div class="interest-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Responsive Design</h3>
+                    <p>Creating flawless experiences across all devices</p>
+                </div>
+                <div class="interest-card">
+                    <div class="interest-icon">
+                        <i class="fas fa-paint-brush"></i>
+                    </div>
+                    <h3>UI/UX Design</h3>
+                    <p>Crafting intuitive and beautiful user interfaces</p>
+                </div>
+                <div class="interest-card">
+                    <div class="interest-icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h3>Emerging Tech</h3>
+                    <p>Exploring AI, machine learning, and new frameworks</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title">My Projects</h2>
+            <div class="projects-container">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80" alt="Portfolio Project">
+                    </div>
+                    <div class="project-info">
+                        <h3>Personal Portfolio</h3>
+                        <p>A responsive portfolio website built with pure HTML and CSS to showcase my skills and projects.</p>
+                        <div class="project-links">
+                            <a href="https://pecg002.github.io/My-Portfolio-Norah-/" class="btn" target="_blank">View Live</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1169&q=80" alt="E-commerce Project">
+                    </div>
+                    <div class="project-info">
+                        <h3>E-commerce Template</h3>
+                        <p>A fully responsive e-commerce template with product listings, cart functionality, and checkout flow.</p>
+                        <div class="project-links">
+                            <a href="#" class="btn">Coming Soon</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>Let's Talk About Your Project</h3>
+                    <p>I'm currently available for freelance work or full-time positions. Feel free to reach out to discuss how I can help bring your ideas to life.</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone-alt"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Call Me</h4>
+                                <a href="tel:+254796367532">+254 796 367 532</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Email Me</h4>
+                                <a href="mailto:onorah09@gmail.com">onorah09@gmail.com</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fab fa-linkedin-in"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>LinkedIn</h4>
+                                <a href="https://www.linkedin.com/in/norah-otieno-0442542a2/" target="_blank">Norah Otieno</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Your Email</label>
+                            <input type="email" id="email" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Your Message</label>
+                            <textarea id="message" class="form-control" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
     <footer>
-        <p>&copy; 2025 Norah Akinyi Otieno. All rights reserved.</p>
+        <div class="container">
+            <div class="footer-content">
+                <p>Let's build something amazing together!</p>
+                <ul class="footer-links">
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <p class="copyright">&copy; 2023 Norah Otieno. All rights reserved.</p>
+            </div>
+        </div>
     </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#hero" class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
 </body>
 </html>
